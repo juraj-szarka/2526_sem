@@ -1,5 +1,3 @@
-import os
-
 f = open("content/hada.txt", "r")
 
 content = f.read()
