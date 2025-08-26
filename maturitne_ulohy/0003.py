@@ -57,9 +57,16 @@ def start():
     global stations
     global station_index
     global current
+    global state
+    global instances
+    global text
     station_index = 0
     stations = load_stations(zastavky)
     current = stations[0]
+    state = 0
+    instances = load_instance(stations[station_index])
+    text = canvas.create_text(200, 25, font=('Courier', 24), text=current, fill='red')
+    roll()
     print('done')
     return None
 
@@ -75,9 +82,8 @@ def on_click(event):
         station_index = 0
     else:
         station_index += 1
+
     instances = load_instance(stations[station_index])
-    print(instances)
-    roll()
     return None
 
 canvas = tk.Canvas(width=400, height=50, background='black')
@@ -86,6 +92,5 @@ start()
 
 canvas.bind('<Button-1>', on_click)
 
-text = canvas.create_text(200, 25, font=('Courier', 24), text=current, fill='red')
 
 canvas.mainloop()
