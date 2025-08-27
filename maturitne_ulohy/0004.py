@@ -40,9 +40,19 @@ def kod_stanica_max(data_given):
         if each["temp"] == max:
             return each["station"]
 
+def priemerna_teplota(data_given):
+    temp_sum = 0
+    temp_rec = 0
+    for each in data_given:
+        temp_sum += each["temp"]
+        temp_rec += 1
+    return temp_sum/temp_rec
+
+
 data = data_handling(data_txt)
 
 print(pocet_merani(data))
 print(namerane_teploty(data))
 print(najvyssia_teplota(data))
 print(kod_stanica_max(data))
+print(priemerna_teplota(data))
