@@ -1,9 +1,34 @@
 f = open("content/meteo_data.txt", "r")
 
-data = f.read()
+data_txt = f.read()
 
-def pocet_merani(data_txt):
-    data_splitted = data_txt.split("\n")
-    return len(data_splitted)
+
+def data_handling(data_txt):
+    data_list = data_txt.split("\n")
+    data_sorted = []
+    for each in data_list:
+        each_splitted = each.split(" ")
+        instance = {"station": each_splitted[0], "date": each_splitted[1], "time": each_splitted[2],
+                    "temp": each_splitted[3], "cloudiness": each_splitted[4]}
+        data_sorted.append(instance)
+    return data_sorted
+
+'''
+
+    B O D Y
+
+'''
+
+def pocet_merani(data_given):
+    return len(data_given)
+
+def namerane_teploty(data_given):
+    temps = []
+    for each in data_given:
+        temps.append(each["temp"])
+    return temps
+
+data = data_handling(data_txt)
 
 print(pocet_merani(data))
+print(namerane_teploty(data))
