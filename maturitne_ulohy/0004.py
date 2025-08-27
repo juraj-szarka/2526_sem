@@ -25,10 +25,16 @@ def pocet_merani(data_given):
 def namerane_teploty(data_given):
     temps = []
     for each in data_given:
-        temps.append(each["temp"])
+        temps.append(float(each["temp"].replace(",", ".").replace("--", "-").replace("+-", "")))
     return temps
+
+def najvyssia_teplota(data_given):
+    temps = namerane_teploty(data_given)
+    temps.sort()
+    return temps[-1]
 
 data = data_handling(data_txt)
 
 print(pocet_merani(data))
 print(namerane_teploty(data))
+print(najvyssia_teplota(data))
