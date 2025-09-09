@@ -1,0 +1,6 @@
+f = open('subor.txt', 'w')
+f.write('Ahoj\nCau')
+f.close()
+f = open('subor.txt', 'r')
+print((f.readlines())[1])
+f.close()
