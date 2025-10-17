@@ -7,6 +7,3 @@ while a > 0:
     t.fd(a)
     t.rt(90)
     a -= 5
-
-
-turtle.done()
