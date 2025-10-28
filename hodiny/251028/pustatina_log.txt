@@ -1,0 +1,19 @@
+[2281-10-23] LOC=Ruiny_Canterlotu RAD=3.7 ITEM=stimpack ENCOUNTER=ghoul
+[2281-10-23] LOC=Ruiny_Canterlotu RAD=5.2 ITEM=fusion_cell ENCOUNTER=raider
+[2281-10-23] LOC=Ruiny_Canterlotu RAD=2.1 ITEM=water_purified ENCOUNTER=none
+[2281-10-24] LOC=Vault_52 RAD=0.4 ITEM=brahmin_milk ENCOUNTER=none
+[2281-10-24] LOC=Vault_52 RAD=0.7 ITEM=radaway ENCOUNTER=none
+[2281-10-24] LOC=Staré_mesto_Manehattan RAD=4.9 ITEM=ammo_10mm ENCOUNTER=raider
+[2281-10-25] LOC=Staré_mesto_Manehattan RAD=6.3 ITEM=rad_x ENCOUNTER=super_mutant
+[2281-10-25] LOC=Staré_mesto_Manehattan RAD=4.2 ITEM=stimpack ENCOUNTER=ghoul
+[2281-10-25] LOC=Tajný_bunker_MoP RAD=1.2 ITEM=tech_cache ENCOUNTER=none
+[2281-10-26] LOC=Tajný_bunker_MoP RAD=1.0 ITEM=fusion_cell ENCOUNTER=none[2281-10-23] LOC=Ruiny_Canterlotu RAD=3.7 ITEM=stimpack ENCOUNTER=ghoul
+[2281-10-23] LOC=Ruiny_Canterlotu RAD=5.2 ITEM=fusion_cell ENCOUNTER=raider
+[2281-10-23] LOC=Ruiny_Canterlotu RAD=2.1 ITEM=water_purified ENCOUNTER=none
+[2281-10-24] LOC=Vault_52 RAD=0.4 ITEM=brahmin_milk ENCOUNTER=none
+[2281-10-24] LOC=Vault_52 RAD=0.7 ITEM=radaway ENCOUNTER=none
+[2281-10-24] LOC=Staré_mesto_Manehattan RAD=4.9 ITEM=ammo_10mm ENCOUNTER=raider
+[2281-10-25] LOC=Staré_mesto_Manehattan RAD=6.3 ITEM=rad_x ENCOUNTER=super_mutant
+[2281-10-25] LOC=Staré_mesto_Manehattan RAD=4.2 ITEM=stimpack ENCOUNTER=ghoul
+[2281-10-25] LOC=Tajný_bunker_MoP RAD=1.2 ITEM=tech_cache ENCOUNTER=none
+[2281-10-26] LOC=Tajný_bunker_MoP RAD=1.0 ITEM=fusion_cell ENCOUNTER=none
